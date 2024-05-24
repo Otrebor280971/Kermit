@@ -1,0 +1,108 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    background-color: #000000;
+    height: 343px;
+    width: 929px;
+    padding: 0px;
+}
+
+.onair_button {
+    background-color: #000000;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #5dc1b9;
+    left: 440px;
+    top: 239px;
+    position: absolute;
+}
+
+.camera_container {
+    background-color: #d9d9d9;
+    height: 343px;
+    width: 423px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.camera_container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stop_button {
+    background-color: #000000;
+    color: #bb1111;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #bb1111;
+    top: 45px;
+    left: 438px;
+    position: absolute;
+}
+
+.onair {
+    color: #5dc1b9;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 12px;
+    font-family: Inter;
+    left: 437px;
+    top: 253px;
+    width: 102px;
+    height: 17px;
+    position: absolute;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+}
+
+.report_container {
+    background-color: #3e5654;
+    color: #ffffff;
+    text-align: center;
+    height: 307px;
+    width: 351px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    top: 18px;
+    left: 560px;
+    position: absolute;
+}
+
+.report {
+    color: #ffffff;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 12px;
+    font-family: Inter;
+    left: 689px;
+    top: 27px;
+    width: 94px;
+    height: 18px;
+    position: absolute;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+}
+
+.start_button {
+    background-color: #000000;
+    color: #5dc1b9;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #5dc1b9;
+    top: 141px;
+    left: 440px;
+    position: absolute;
+}

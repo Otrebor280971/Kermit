@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kermit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes ="32x32" href="logo.png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id='main' class='main'>
+        <button id='onair_button' class='onair_button'></button>
+        <div id='onair' class='onair'>
+            ON AIR
+        </div>
+        <div id='camera_container' class='camera_container'>
+            <img id="drone_video" src="http://192.168.10.1:5000/video_feed" alt="Drone video feed">
+        </div>
+        <button id='stop_button' class='stop_button' onclick="emergency_stop()">STOP</button>
+        <div id='report_container' class='report_container'>
+            <br>
+            <br>
+        </div>
+        <div id='report' class='report'>
+            REPORT
+        </div>
+        <button id='start_button' class='start_button' onclick="start()">START</button>
+    </div>
+</body>
+
+</html>
